@@ -9,7 +9,7 @@ public class Main {
         } else {
             bonus = 0;
         }
-        int finalAmount= (amountOnAccount + deposit + bonus);
+        int finalAmount = (amountOnAccount + deposit + bonus);
         System.out.println("Начисленно бонусов - " + bonus);
         System.out.println("Итоговая сумма на счету - " + finalAmount);
     }
